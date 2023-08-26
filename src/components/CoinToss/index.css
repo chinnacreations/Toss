@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+}
+
+.bg-con {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-con {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+}
+.heading {
+  font-size: 34px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.desc {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.coin-img {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #f9d423;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #a35200;
+}
+.result-con {
+  display: flex;
+}
+.count {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 50px;
+}
